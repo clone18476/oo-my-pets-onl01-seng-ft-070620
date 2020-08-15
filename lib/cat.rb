@@ -12,8 +12,6 @@ class Cat
     owner.cats << self
   end
 
-  def self.all        # this is a class method, it knows all the cats
-    @@all
-  end 
+
   
 end
