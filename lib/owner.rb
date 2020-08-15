@@ -23,6 +23,11 @@ class Owner
   def say_species    # can say its species
     "I am a #{self.species}."
   end
+  
+  def self.reset_all    # .reset_all can reset the owners that have been created
+    self.delete
+  end 
+  
 
 
 end
