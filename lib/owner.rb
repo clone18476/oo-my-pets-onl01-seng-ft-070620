@@ -9,6 +9,10 @@ class Owner
     @species = "human"  #initializes with species set to human
   end 
   
+  def say_species
+    
+  end 
+  
   
   
   
