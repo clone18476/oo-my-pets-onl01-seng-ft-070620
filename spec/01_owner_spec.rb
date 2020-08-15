@@ -7,7 +7,7 @@ describe Owner do
   end
 
   context 'Instance methods' do
-
+   
     describe "#name" do
       it "can have a name" do
         expect(@owner.name).to eq("Victoria")
