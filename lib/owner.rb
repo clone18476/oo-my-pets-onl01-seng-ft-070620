@@ -1,7 +1,7 @@
 class Owner
   
   attr_accessor 
-  attr_reader :species, :name
+  attr_reader :species, :name     # cannot change name or species
   
   
   def initialize(name)  #initializes with a name 
