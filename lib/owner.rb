@@ -25,7 +25,7 @@ class Owner
   end
   
   def self.reset_all    # .reset_all can reset the owners that have been created
-    self.all.delete
+    self.all.clear    # the .clear method is used as a delete method
   end 
   
 
