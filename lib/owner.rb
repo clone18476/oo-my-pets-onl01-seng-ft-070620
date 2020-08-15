@@ -22,7 +22,7 @@ class Owner
 
 
   def self.count      # .count returns the number of owners that have been created
-    self.all.length   # hits self, then all arrays within self, then the length (number) of items in the arrays
+    self.all.length   # hits self, then all arrays within self, then the length (count) of items in the arrays
   end  
   
 end 
